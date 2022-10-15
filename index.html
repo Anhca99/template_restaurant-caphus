@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Caphus</title>
+    <!-- link dùng để reset css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
+    <!-- link font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&family=Open+Sans&family=Poppins:wght@400;600;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <div class="grid wide gird__header-width">
+                <!-- Header navbar -->
+                <nav class="header__navbar">
+                    <div class="header__navbar-logo">
+                        <div class="header__navbar-logo-img">
+                            <img src="https://i.im.ge/2022/10/15/2DnRya.logo-header.png" alt="Logo" class="header__navbar-logo-img--max">
+                        </div>   
+                    </div>
+                    <div class="header__narbar-list">
+                        <ul class="header__navbar-menu hide-on-mobile">
+                            <li class="header__navbar-item">
+                                <a href="#" class="header__navbar-item-link">About</a>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="#" class="header__navbar-item-link">Service</a>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="#" class="header__navbar-item-link">Menu</a>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="#" class="header__navbar-item-link">Chef</a>
+                            </li>
+                        </ul>
+                        <div class="header__navbar-button">
+                            <button class="header__navbar-login">
+                                <a href="#" class="header__navbar-login-link">Login</a>
+                            </button>
+                            <button class="header__navbar-started">
+                                <a href="#" class="header__navbar-started-link">Get Started</a>
+                            </button>
+                        </div>
+                    </div>
+                </nav>
+
+                <!-- Header with content -->
+                <div class="header__with-content">
+                    <div class="header__with-content-item">
+                        <div class="header__with-content-delivery">
+                            <p class="header__with-content-delivery-text">Faster Food Delivery Service</p>
+                            <img src="https://i.im.ge/2022/10/08/1Bst76.shipper.png" alt="" class="header__with-content-delivery-img">                               
+                        </div>
+                        <h1 class="header__with-content-item-header">The food <br> of your choice</h1>
+                        <p class="header__with-content-item-text">Discover local, on-demand delivery or Pickup from nearby restaurants.</p>
+                        <div class="header__with-content-btn">
+                            <a href="#" class="header__with-content-btn-explore">Explore Now</a>
+                            <a href="#" class="header__with-content-btn-link">
+                                <div class="header__with-content-btn-play">
+                                    <i class="header__with-content-btn-play-icon fa-solid fa-play"></i>
+                                </div>
+                                <p class="header__with-content-btn-text">How It Works</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Header Banner -->
+                <div class="header__banner">
+                    <div class="header__banner-chopping-board">
+                        <img src="https://i.im.ge/2022/10/08/1Bswiy.chopping-board.png" alt="" class="header__banner-chopping-board-img">
+                    </div>
+                    <div class="header__banner-chef-man">
+                        <img src="https://i.im.ge/2022/10/08/1Bs5wx.chef-man.png" alt="" class="header__banner-chef-man-img">
+                    </div>
+                    <div class="header__banner-hamburger">
+                        <img src="https://i.im.ge/2022/10/08/1BsmXJ.hamburger.png" alt="" class="header__banner-hamburger-img">              
+                    </div>
+                    <div class="header__banner-cake-pot">
+                        <img src="https://i.im.ge/2022/10/08/1Bs01G.cake-pot.png" alt="" class="header__banner-cake-pot-img">
+                    </div>
+                    
+                </div>
+
+                <!-- Header Banner remarkable -->
+                <div class="header__banner-remarkable">
+                    <div class="header__banner-delivery">
+                        <p class="header__banner-delivery-text">Faster Delivery</p>
+                        <img src="https://i.im.ge/2022/10/08/1Bst76.shipper.png" alt="" class="header__banner-delivery-img">
+                    </div>
+                    <div class="header__banner-remarkable-idea">
+                        <div class="header__banner-remarkable-advertise">
+                            <img src="https://i.im.ge/2022/10/08/1Bs9Ka.eat.png" alt="" class="header__banner-remarkable-advertise--img">
+                        </div>
+                        <div class="header__banner-remarkable-plate">
+                            <img src="https://i.im.ge/2022/10/08/1BsNGz.plate.png" alt="" class="header__banner-remarkable-plate-img">
+                        </div>
+                        <div class="header__banner-remarkable-ratings">
+                            <p class="header__banner-remarkable-ratings--number">4.8</p>
+                            <p class="header__banner-remarkable-ratings--text">Ratings</p>
+                            <div class="header__banner-remarkable-ratings--star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="app__content grid wide gird__content-width">
+            <!-- About us -->
+            <div class="about-us gird__about-us">
+                <div class="about-us__title">
+                    <p class="about-us__sub-title">ABOUT US</p>
+                    <h2 class="about-us__title-heading">Order delivery in just <br> 30 minutes</h2>
+                </div>
+
+                <div class="about-us__list">
+                    <div class="about-us__list-item">
+                        <div class="about-us__list-item-icon--mobile">
+                            <i class="about-us__icon--mibile fa-solid fa-mobile-screen"></i>
+                        </div>
+                        <div class="about-us__list-item-icon-check">
+                            <i class="about-us__icon--mobile--check fa-solid fa-circle-check"></i>
+                        </div>
+                        <h3 class="about-us__list-item-heading">Order Your Food</h3>
+                        <p class="about-us__list-item-text">Select your favourite food and order from nearby restaurant</p>
+                    </div>
+                    <div class="about-us__list-item">
+                        <div class="about-us__list-item-icon--biking">
+                            <i class="about-us__icon--biking fa-solid fa-person-biking"></i>
+                        </div>
+                        <div class="about-us__list-item-icon-check">
+                            <i class="about-us__icon--biking--check fa-solid fa-circle-check"></i>
+                        </div>
+                        <h3 class="about-us__list-item-heading">Delivery & Pickup</h3>
+                        <p class="about-us__list-item-text">Add a community to your course, help your students connect with each other, and</p>
+                    </div>
+                    <div class="about-us__list-item">
+                        <div class="about-us__list-item-icon--burger">
+                            <i class="about-us__icon--burger fa-solid fa-burger"></i>
+                        </div>
+                        <div class="about-us__list-item-icon-check">
+                            <i class="about-us__icon--burger--check fa-solid fa-circle-check"></i>
+                        </div>
+                        <h3 class="about-us__list-item-heading">Enjoy Your Recipe</h3>
+                        <p class="about-us__list-item-text">Add a community to your course, help your students connect with each other, and</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Why choose us -->
+            <div class="choose-us grid__choose-us">
+                <div class="choose-us__introduce">
+                    <div class="choose-us__chef">
+                        <img src="https://i.im.ge/2022/10/10/2MX4bc.chopping-board-girl.png" alt="" class="choose-us__chopping-board">
+                        <div class="choose-us__chef-girl">
+                            <img src="https://i.im.ge/2022/10/10/2MXniT.chef-girl.png" alt="" class="choose-us__chef-girl--img">
+                        </div>
+                    </div>
+                    <div class="choose-us__food">
+                        <p class="choose-us__food-quality">Quality Food</p>
+                        <div class="choose-us__food-breakfast">
+                            <img src="https://i.im.ge/2022/10/10/2MXJX0.breakfast.png" alt="" class="choose-us__food-breakfast--img">
+                            <p class="choose-us__food-breakfast--text">Breakfast</p>
+                        </div>
+                        <div class="choose-us__food-lunch">
+                            <img src="https://i.im.ge/2022/10/10/2MXBGL.lunch.png" alt="" class="choose-us__food-lunch--img">
+                            <p class="choose-us__food-lunch--text">Lunch</p>
+                        </div>
+                        <div class="choose-us__food-dinner">
+                            <img src="https://i.im.ge/2022/10/10/2MXHwr.dinner.png" alt="" class="choose-us__food-dinner--img">
+                            <p class="choose-us__food-dinner--text">Dinner</p>
+                        </div>
+                    </div>
+                    <div class="choose-us__introduce-cake">
+                        <img src="https://i.im.ge/2022/10/08/1Bs01G.cake-pot.png" alt="" class="choose-us__introduce-cake--img">
+                    </div>
+                    <div class="choose-us__introduce-hourglass">
+                        <img src="https://i.im.ge/2022/10/10/2MXpZW.hourglass.png" alt="" class="choose-us__introduce-hourglass--img">
+                    </div>
+                    <div class="choose-us__introduce-circle">
+                        <img src="https://i.im.ge/2022/10/10/2M0vbq.circle.png" alt="" class="choose-us__introduce-circle-img">
+                    </div>
+                </div>
+
+                <div class="choose-us__content">
+                    <div class="choose-us__content-text">
+                        <p class="choose-us__content-text--title">WHY CHOOSE US</p>
+                        <h2 class="choose-us__content-text--heading">Every Flavor <br> Welcome</h2>
+                        <p class="choose-us__content-text--des">From your neighborhood sushi spot to the burger and fries you crave, choose from over 300,000 local and national.</p>
+                    </div>
+                    <div class="choose-us__content-course">
+                        <div class="choose-us__content-course--icon">
+                            <div class="choose-us__content-course--icon-cart">
+                                <i class="choose-us__content-course--icon-item-cart fa-solid fa-cart-shopping"></i>
+                            </div>
+                            <div class="choose-us__content-course--icon-check">
+                                <i class="choose-us__content-course--icon-item-check fa-solid fa-circle-check"></i>
+                            </div>
+                        </div>
+
+                        <div class="choose-us__content-course-des">
+                            <p class="choose-us__content-course-des-title">All in one app</p>
+                            <p class="choose-us__content-course-des-text">Add a community to your course, help your students connect</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fast Food -->
+            <div class="fast-food-delivery grid__fast-food-delivery">
+                <div class="fast-food">
+                    <ul class="fast-food__list">
+                        <li class="fast-food__list-item">
+                            <button href="#" class="fast-food__list-link fast-food__list-link--active">
+                                <img src="https://i.im.ge/2022/10/11/2Tdf26.fast-food.png" alt="" class="a fast-food__list-img">
+                                <p class="fast-food__list-text fast-food__list-text--active">Fast Food</p>
+                            </button>
+                        </li>
+                        <li class="fast-food__list-item">
+                            <button href="#" class="fast-food__list-link">
+                                <img src="https://i.im.ge/2022/10/11/2Tdv0X.coffee.png" alt="" class="a fast-food__list-img">
+                                <p class="fast-food__list-text">Coffee</p>
+                            </button>
+                        </li>
+                        <li class="fast-food__list-item">
+                            <button href="#" class="fast-food__list-link">
+                                <img src="https://i.im.ge/2022/10/11/2TdJc8.pizza.png" alt="" class="a fast-food__list-img">
+                                <p class="fast-food__list-text">Pizza</p>
+                            </button>
+                        </li>
+                        <li class="fast-food__list-item">
+                            <button href="#" class="fast-food__list-link">
+                                <img src="https://i.im.ge/2022/10/11/2Tdneh.rice.png" alt="" class="a fast-food__list-img">
+                                <p class="fast-food__list-text">Rice Menu</p>
+                            </button>
+                        </li>
+                        <li class="fast-food__list-item">
+                            <button hrefv class="fast-food__list-link">
+                                <img src="https://i.im.ge/2022/10/11/2Tdk6F.desserts.png" alt="" class="a fast-food__list-img">
+                                <p class="fast-food__list-text">Desserts</p>
+                            </button>
+                        </li>
+                        <li class="fast-food__list-item">
+                            <button href="#" class="fast-food__list-link">
+                                <img src="https://i.im.ge/2022/10/11/2Tdv0X.coffee.png" alt="" class="a fast-food__list-img">
+                                <p class="fast-food__list-text">Coffee</p>
+                            </button>
+                        </li>
+                        <li class="fast-food__list-item fast-food__list-item-active">
+                            <button href="#" class="fast-food__list-link">
+                                <img src="https://i.im.ge/2022/10/11/2Tdneh.rice.png" alt="" class="a fast-food__list-img">
+                                <p class="fast-food__list-text">Rice Menu</p>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="delivery">
+                    <div class="delivery-icon">
+                        <i class="delivery-icon__dots delivery-icon__dots--active fa-solid fa-circle"></i>
+                        <i class="delivery-icon__dots fa-solid fa-circle"></i>
+                        <i class="delivery-icon__dots fa-solid fa-circle"></i>
+                    </div>
+                    <div class="delivery__fast-food">
+                        <p class="delivery__fast-food--title">Faster Food Delivery Service</p>
+                        <img src="https://i.im.ge/2022/10/08/1Bst76.shipper.png" alt="" class="delivery__fast-food--img">
+                    </div>
+                    <h2 class="delivery__fast-food--heading">Delivery in just 30 minutes</h2>
+                    <p class="delivery__fast-food--des">Bring together your discussions memberships and content. Start your 7-day free trial.</p>
+                    <button class="delivery__fast-food--login">Login</button>
+                    <div class="delivery__doremon">
+                        <img src="https://i.im.ge/2022/10/11/2TdzKK.doremon.png" alt="" class="delivery__doremon-img">
+                    </div>
+                    <div class="delivery__humberher-max">
+                        <img src="https://i.im.ge/2022/10/12/2Xijk1.humberger-delivery.png" alt="" class="delivery__humberher-max--img">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial -->
+            <div class="testimonial grid__testimonial">
+                <div class="testimonial__title">
+                    <p class="testimonial__sub-title">SUCCESS STORIES</p>
+                    <h2 class="testimonial__title-heading">Get to know about us</h2>
+                </div>
+
+                <div class="testimonial__list">
+                    <div class="testimonial__list-item">
+                        <div class="testimonial__list-item--son">
+                            <h3 class="testimonial__list-item-heading">22K+</h3>
+                            <p class="testimonial__list-item-text">Use Order Online</p>
+                        </div>
+                    </div>
+                    <div class="testimonial__list-item">
+                        <div class="testimonial__list-item--son">
+                            <h3 class="testimonial__list-item-heading">459</h3>
+                            <p class="testimonial__list-item-text">Trusted Clients</p>
+                        </div>
+                    </div>
+                    <div class="testimonial__list-item">
+                        <div class="testimonial__list-item--son">
+                            <h3 class="testimonial__list-item-heading">12K</h3>
+                            <p class="testimonial__list-item-text">Use Order Online</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dawnload app -->
+            <div class="grid__download">
+                <div class="download">
+                    <div class="download-app">
+                        <div class="download-app__content">
+                            <p class="download-app__content--title">DOWNLOAD APP</p>
+                            <h2 class="download-app__content--heading">Download our Ios & android app</h2>
+                            <p class="download-app__content--des">Discover local, on-demand delivery or Pickup from nearby restaurants.</p>
+                            <button class="download-app__content-login">
+                                <a href="#" class="download-app__content-login--link">Explore Now</a>
+                            </button>
+                        </div>
+                        <div class="download-app__introduce">
+                            <div class="download-app__introduce-phone">
+                                <img src="https://i.im.ge/2022/10/12/2lSa2W.phone.png" alt="" class="download-app__introduce-phone--img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer gird__content-width">
+            <div class="gird__footer">
+                <div class="footer-start">
+                    <div class="footer-start__content">
+                        <div class="footer__contact">
+                            <img src="https://i.im.ge/2022/10/12/2ljEQh.logo-footer.png" alt="" class="footer__contact--logo">
+                            <p class="footer__contact-litte">CONTACT</p>
+                            <h3 class="footer__contact-mail">trancaphu@gmail.com</h3>
+                        </div>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <h4 class="footer__list--item--heading">Navigation</h4>
+                                <p class="footer__list--item--text">About</p>
+                                <p class="footer__list--item--text">Service</p>
+                                <p class="footer__list--item--text">Menu</p>
+                                <p class="footer__list--item--text">Chef</p>
+                            </li>
+                            <li class="footer__list-item">
+                                <h4 class="footer__list--item--heading">Resources</h4>
+                                <p class="footer__list--item--text">Blog</p>
+                                <p class="footer__list--item--text">News Updates</p>
+                            </li>
+                            <li class="footer__list-stay">
+                                <h4 class="footer__list--item--heading">Stay up to date</h4>
+                                <p class="footer__list--item--des">Stay Informed On How You Can Make a Difference</p>
+                                <div class="footer__email">
+                                    <input type="email" placeholder="Your email address" name="" id="" class="footer__list-stay--email"></input>
+                                    <div class="footer__list-stay--play">
+                                        <i class="footer__list-stay--play-icon fa-solid fa-play"></i>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__end">
+                        <p class="footer__end-year">© 2022 All Rights Reserved - 
+                            <a href="https://github.com/Anhca99" class="footer__end-year--find">Caphus</a>
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+        
+
+</body>
+</html>

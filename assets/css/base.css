@@ -1,0 +1,56 @@
+:root {
+    --button-color: #FF5916;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #392F27;
+    --boder-color: #dbdbdb;
+    --hover-color: #f04b0a;
+    --background-color-max: linear-gradient(131.83deg, #fff5f5 -30%, #ffb6b6  99.21%);
+}
+  
+* {
+    /* đẻ kế thừa box-sizing: border-box; dùng khi responsive */
+    box-sizing: inherit;
+}
+  
+html {
+    /* mặc định 10px đổi sang rem sẽ là 10/16 = 0.625, 
+    như vậy để CSS bằng đơn vị rem ra được kích cỡ tương ứng 10px 
+    ta sẽ CSS là font-size: 0.625rem.
+    quy đổi tỉ lệ tại thẻ html với CSS font-size: 62.5%. 
+    Kết quả thu được, 1rem = 10px, 1.6rem = 16px, 2rem = 20px, 2.4rem = 24px.*/
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.gird__about-us {
+    height: 700px;
+}
+
+.grid__choose-us {
+    height: 700px;
+}
+
+.grid__fast-food-delivery {
+    height: 590px;
+}
+
+.grid__testimonial {
+    height: 720px;
+}
+
+.grid__download {
+    height: 620px;
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gird__footer {
+    width: 1120px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}

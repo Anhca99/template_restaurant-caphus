@@ -1,0 +1,804 @@
+/* PC */
+@media (min-width: 1024px) {
+    .grid {
+        width: 100%;
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .grid.wide {
+        width: 1120px;
+        margin: 0 auto;
+    }
+}
+
+
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    /* dùng ần cả mobile và tablet */
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    .grid {
+        width: 100%;
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .gird__header-width {
+        width: 820px;
+    }
+
+    .gird__content-width {
+        width: 820px;
+    }
+
+    .gird__about-us {
+        height: 500px;
+    }
+    
+    .grid__choose-us {
+        height: 570px;
+    }
+    
+    .grid__fast-food-delivery {
+        height: 550px;
+    }
+    
+    .grid__testimonial {
+        height: 500px;
+    }
+    
+    .grid__download {
+        height: 620px;
+        width: 820px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .gird__footer {
+        width: 820px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Header */
+    .header {
+        height: 600px;
+        width: 820px;
+    }
+
+    .header__navbar {
+        margin: 0 60px;
+    }
+
+    .header__narbar-list {
+        margin-top: 20px;
+
+    }
+
+    .header__banner-chopping-board {
+        left: 29%;
+        display: none;
+    }
+
+    .header__banner-chef-man {
+        left: 29%;
+        display: none;
+    }
+
+    .header__with-content {
+        margin-left: 60px;
+    }
+
+    .header__with-content-item-header {
+        height: 100px;
+        font-weight: 700;
+        font-size: 4rem;
+        color: var(--black-color);
+        line-height: 50px;
+    }
+
+    .header__banner-cake-pot {
+        position: absolute;
+        left: 462px;
+        top: 130px;
+    }
+
+    .header__banner-delivery {
+        top: 220px;
+        right: 36px;    
+    }
+
+    .header__banner-hamburger {
+        top: -290px;
+        left: 0;
+    }
+
+    .header__banner-hamburger-img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .header__with-content-btn-explore {
+        width: 140px;
+        height: 50px;
+    }
+
+    .header__with-content-item-text {
+        font-size: 1.5rem;
+    }
+
+    .header__with-content-btn-link {
+        height: 53px;
+    }
+
+    .header__with-content-btn-play {
+        padding: 13px;
+    }
+
+    .header__banner-remarkable-idea {
+        top: 342px;
+        right: 30px;
+    }
+
+    /* About us */
+    .about-us,
+    .testimonial {
+        text-align: center;
+    }
+
+    .about-us__title, .testimonial__title {
+        margin-top: 42px;
+    }
+
+    .about-us__title-heading, 
+    .testimonial__title-heading {
+        font-size: 3.7rem;
+        line-height: 45px;
+    }
+
+    .about-us__list-item, 
+    .testimonial__list-item {
+        width: 214px;
+        height: 200px;
+    }
+
+    .about-us__list-item-icon--mobile, 
+    .about-us__list-item-icon--biking, 
+    .about-us__list-item-icon--burger {
+        padding: 10px 15px;
+        margin-top: 22px;
+        margin-left: -90px;
+    }
+
+    .about-us__icon--mibile,
+    .about-us__icon--biking,
+    .about-us__icon--burger {
+        font-size: 2.2rem;
+        
+    }
+
+    .about-us__list-item-icon-check {
+        top: 24px;
+        left: 70px;
+    }
+
+    .about-us__icon--mobile--check,
+    .about-us__icon--biking--check,
+    .about-us__icon--burger--check {
+        font-size: 1rem;
+    }
+
+    .about-us__list-item-heading {
+        font-size: 1.4rem;
+        margin-top: 20px;
+    }
+
+    .about-us__list-item-text {
+        font-size: 1.1rem;
+        width: 160px;
+        margin-top: -6px;
+        display: block;
+    }
+
+    /* Why choose us */
+    .choose-us__introduce {
+        margin-left: -10px;
+        margin-right: 60px;
+    }
+
+    .choose-us__content {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .choose-us__chef {
+        margin-left: 40px;
+        margin-top: -72px;
+    }
+
+    .choose-us__chopping-board {
+        width: 260px;
+        height: 180px;
+    }
+
+    .choose-us__chef-girl {
+        left: 140px;
+        top: 128px;
+        height: 328px;
+    }
+
+    .choose-us__chef-girl--img {
+        width: 170px;
+        height: 330px;
+    }
+
+    .choose-us__food {
+        width: 116px;
+        height: 160px;
+        top: 152px;
+        left: 20px;
+        box-shadow: 0 0 14px #f3bebe;
+    }
+
+    .choose-us__food-quality {
+        margin-bottom: 8px;
+        font-size: 1.2rem;
+        margin-left: 10px;
+    }
+
+    .choose-us__food-breakfast--text, 
+    .choose-us__food-lunch--text, 
+    .choose-us__food-dinner--text {
+        font-size: 0.9rem;
+    }
+
+    .choose-us__food-breakfast, 
+    .choose-us__food-lunch, 
+    .choose-us__food-dinner {
+        width: 92px;
+        margin-left: 10px;
+    }
+
+    .choose-us__food-breakfast--img, 
+    .choose-us__food-lunch--img, 
+    .choose-us__food-dinner--img {
+        margin-left: 8px;
+    }
+
+    .choose-us__content-text--heading {
+        font-size: 3.7rem;
+        line-height: 45px;
+    }
+
+    .choose-us__content-text--des {
+        line-height: 1.6;
+    }
+
+    .choose-us__content-course--icon-cart {
+        padding: 8px 12px;
+    }
+    
+    .choose-us__content-course--icon-item-cart {
+        font-size: 2.2rem;
+        margin-top: 6px;
+    }
+
+    .choose-us__content-course--icon-check {
+        top: 6px;
+        left: -18px;
+    }
+
+    .choose-us__content-course--icon-item-check {
+        font-size: 1rem;
+    }
+
+    .choose-us__content-course-des-text {
+        font-size: 1.2rem;
+        margin-top: -10px;
+        width: 200px;
+    }
+
+    .choose-us__content-course {
+        width: 310px;
+        height: 90px;
+        margin-top: 18px;
+    }
+
+    .choose-us__content-course-des {
+        margin: auto auto auto 0px;
+    }
+
+    .choose-us__content-course--icon {
+        margin-left: -4px;
+    }
+
+    .choose-us__introduce-cake {
+        left: 70px;
+    }
+
+    .choose-us__introduce-cake--img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .choose-us__introduce-circle {
+        right: 52%;
+        bottom: 21%;
+    }
+
+    .choose-us__introduce-circle-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .choose-us__introduce-hourglass {
+        top: 170px;
+        left: 330px;
+    }
+
+    .choose-us__introduce-hourglass--img {
+        width: 70px;
+        height: 70px;
+    }
+
+    /* Fast Food */
+    .fast-food__list-img {
+        width: 35px;
+        height: 35px;
+    }
+
+    p.fast-food__list-text--active {
+        font-size: 1.3rem;
+    }
+
+    .fast-food__list-text {
+        font-size: 1.3rem;
+
+    }
+
+    .fast-food__list-link {
+        width: 140px;
+        height: 42px;
+    }
+
+    .fast-food__list-item {
+        padding-top: 12px;
+        margin-left: 14px;
+    }
+
+    .fast-food__list {
+        width: 190px;
+        max-height: 336px;
+    }
+
+    .delivery {
+        width: 400px;
+        height: 386px;
+    }
+
+    .delivery__fast-food--title {
+        font-size: 1.3rem;
+    }
+
+    .delivery__fast-food--heading {
+        font-size: 3.7rem;
+        line-height: 45px;
+        width: 316px;
+    }
+
+    .delivery__fast-food--des {
+        width: 276px;
+        height: 56px;
+        font-weight: 500;
+        font-size: 1.35rem;
+        line-height: 20px;
+        margin: 0px 0 0 60px;
+    }
+
+    .delivery__fast-food--login {
+        display: block;
+    }
+
+    .delivery__doremon {
+        top: -222px;
+        right: 26px;
+    }
+
+    .delivery__doremon-img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .delivery__humberher-max {
+        top: -100px;
+        right: -68px;
+    }
+
+    .delivery__humberher-max--img {
+        width: 230px;
+        height: 194px;
+    }
+
+    /* Testimonial */
+    .testimonial__list-item--son {
+        padding: 36px 16px;
+    }
+
+    .testimonial__list-item-heading {
+        font-size: 3.8rem;
+        line-height: 36px;
+    }
+    
+    .testimonial__list-item-text {
+        font-size: 1.3rem;
+        line-height: 18px;
+        margin-top: 5px;
+    }
+    
+    /* Download app */
+    .download {
+        margin: 0 40px;
+    }
+
+    .download-app__content--heading {
+        font-size: 4rem;
+        line-height: 45px;
+        width: 352px;
+    }
+
+    .download-app__content--des {
+        font-size: 1.4rem;
+        margin-top: -38px;
+        width: 300px;
+    }
+
+    .download-app__content-login {
+        padding: 22px 34px;
+        margin-top: 20px;
+    }
+
+    .download-app__introduce {
+        margin-left: -190px;
+    }
+
+    /* Footer */
+    .footer-start__content {
+        margin: 0 40px;
+    }
+
+    .footer__contact-litte {
+        font-size: 1.3rem;
+    }
+
+    .footer__contact-mail {
+        font-size: 1.6rem;
+    }
+
+    .footer__list-item {
+        margin-right: 36px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .gird__footer {
+        width: 820px;
+        height: 300px;
+    }
+
+    /* Header */
+    .header__navbar-item {
+        padding: 16px 10px;
+    }
+
+    .header__navbar-login {
+        width: 80px;
+        height: 40px;
+    }
+    
+    .header__navbar-button {
+        margin-top: 12px;
+    }
+
+    .header__navbar-started {
+        width: 114px;
+        height: 40px;
+        padding: 0;
+    }
+    
+    .header__navbar-started-link {
+        line-height: 40px;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    /* Header */
+    .header {
+        height: 520px;
+    }
+
+    .header__navbar-logo-img--max {
+        width: 200px;
+        height: 60px;
+    }
+
+    .header__with-content-delivery {
+        width: 310px;
+        height: 54px;
+    }
+
+    .header__with-content-delivery-text {
+        font-size: 1.6rem;
+    }
+
+    .header__with-content-delivery-img {
+        width: 30px;
+        height: 30px;
+        margin-left: -22px;
+    }
+
+    .header__with-content-item-header {
+        font-size: 5rem;
+    }
+
+    .header__with-content-item-text,
+    .header__banner-remarkable-ratings--text,
+    .header__banner-delivery-text {
+        font-size: 1.6rem;
+    }
+
+    .header__with-content-btn-explore,
+    .header__with-content-btn-text,
+    .header__navbar-login-link,
+    .header__navbar-started-link {
+        font-size: 1.8rem;
+    }
+
+    .header__banner-remarkable-idea {
+        top: 320px;
+        right: 30px;
+    }
+
+    .header__banner-remarkable-advertise--img {
+        width: 220px;
+        height: 150px;
+    }
+
+    .header__banner-remarkable-plate-img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .header__banner-remarkable-ratings {
+        top: -88px;
+        right: 110px;
+    }
+
+    .header__banner-remarkable-ratings--number {
+        font-size: 3rem;
+    }
+
+    .header__banner-remarkable-ratings--star {
+        font-size: 1.4rem;
+        color: #fbaf26;
+    }
+
+    .header__banner-delivery {
+        width: 180px;
+        height: 40px;
+    }
+
+    .header__banner-delivery-img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .header__banner-hamburger {
+        top: -318px;
+        left: 0;
+    }
+
+    .header__banner-hamburger-img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .header__banner-cake-pot-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    /* About us */
+    .about-us__sub-title, 
+    .testimonial__sub-title,
+    .choose-us__content-text--title,
+    .download-app__content--title {
+        font-size: 2rem;
+    }
+
+    .about-us__title-heading, 
+    .testimonial__title-heading,
+    .choose-us__content-text--heading {
+        font-size: 4rem;
+        line-height: 50px;
+    }
+
+    .about-us__list-item-heading {
+        font-size: 2rem;
+        margin-left: 16px;
+    }
+
+    .about-us__list-item-text {
+        font-size: 1.6rem;
+        width: 200px;
+        margin-left: 18px;
+    }
+
+    .about-us__list-item-icon--mobile, 
+    .about-us__list-item-icon--biking, 
+    .about-us__list-item-icon--burger {
+        padding: 14px 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 14px;
+    }
+
+    .about-us__icon--mibile, 
+    .about-us__icon--biking, 
+    .about-us__icon--burger {
+        font-size: 3rem;
+    }
+
+    .about-us__icon--mobile--check, 
+    .about-us__icon--biking--check, 
+    .about-us__icon--burger--check {
+        font-size: 1.6rem;
+    }
+
+    .about-us__list-item-icon-check {
+        top: 20px;
+        left: 118px;
+    }
+
+    /* Why choose us */
+    .choose-us__content-text--des {
+        font-size: 1.6rem;
+        margin-top: 0;
+    }
+
+    .choose-us__content-course-des-title {
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+
+    .choose-us__content-course-des-text {
+        font-size: 1.6rem;
+        width: 224px;
+    }
+
+    .choose-us__content-course--icon-cart {
+        padding: 10px 18px;
+        margin-left: 16px;
+    }
+
+    .choose-us__content-course--icon-item-cart {
+        font-size: 2.8rem;
+    }
+
+    .choose-us__content-course--icon-item-check {
+        font-size: 1.6rem;
+    }
+
+    /* Fast Food */
+    .fast-food__list-link {
+        width: 152px;
+        height: 56px;
+    }
+
+    .fast-food__list-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    p.fast-food__list-text--active {
+        font-size: 1.6rem;
+        margin-left: 0;
+    }
+
+    .delivery-icon__dots {
+        font-size: 1.8rem;
+        margin-right: 4px;
+    }
+
+    .fast-food__list-text {
+        font-size: 1.6rem;
+        margin-left: 0;
+    }
+
+    .delivery__fast-food {
+        width: 270px;
+    }
+
+    .delivery__fast-food--title,
+    .delivery__fast-food--des {
+        font-size: 1.6rem;
+    }
+
+    .delivery__fast-food--img {
+        width: 24px;
+        height: 24px;
+        margin: 6px 0 0 6px;
+    }
+
+    .delivery__fast-food--heading {
+        font-size: 4rem;
+        line-height: 50px;
+        margin-top: 6px;
+    }
+
+    .delivery__fast-food--login {
+        font-size: 2rem;
+        padding: 20px 34px;
+    }
+
+    .testimonial__list-item-text {
+        font-size: 1.6rem;
+    }
+    /* Dawnload app */
+    .download-app__content--heading {
+        font-size: 4rem;
+        line-height: 50px;
+    }
+
+    .download-app__content--des {
+        font-size: 1.6rem;
+        line-height: 1.6;
+    }
+
+    .download-app__content-login--link {
+        font-size: 2rem;
+    }
+
+    /* Footer */
+    .footer__contact--logo {
+        width: 130px;
+        height: 36px;
+    }
+
+    .footer__contact-litte {
+        font-size: 1.8rem;
+    }
+
+    .footer__contact-mail {
+        font-size: 2rem;
+    }
+
+    .footer__list--item--heading {
+        font-size: 1.6rem;
+    }
+
+    .footer__list-item,
+    .footer__list-stay {
+        margin-top: -30px;
+    }
+    
+    .footer__end-year {
+        font-size: 1.6rem;
+    }
+}
